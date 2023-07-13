@@ -1,0 +1,70 @@
+*{
+    margin: 12 ; /* margin: 5px ; ist für den abstand zwischen den elementen*/
+    padding: 12 ; /* padding: 1px ; ist für den abstand zwischen dem element und dem rand*/
+    direction: rtl; /* direction: rtl; ist für die richtung des textes*/
+    text-align: center; /* text-align: center; ist für die ausrichtung des textes*/
+}  
+/*  WAS ist Unterschied zwischen * und body?
+ Antwort: * ist für alle Elemente, aber body ist nur für den body.
+ Z.B. wenn wir die Schriftart für alle Elemente ändern wollen, 
+ dann schreiben wir *{font-family: 'Times New Roman', Times, serif;}, 
+ aber wenn wir die Schriftart nur für den body ändern wollen, 
+ dann schreiben wir body{font-family: 'Times New Roman', Times, serif;}.
+ aber * ist stärker als body 
+*/
+body{
+    background-color: rgb(254, 254, 254); /* die hintergrundfarbe*/
+    font-family: 'Times New Roman', Times, serif; /* die schriftart*/
+}
+h3{
+    color: red;
+    font-size: 60px; /* 60px ist die größe der schrift*/
+    font-weight: 900; /* 900 ist die dickste schrift*/
+    font-family: 'Times New Roman', Times, serif; /* die schriftart*/
+}
+
+input {
+    background-color: rgb(15, 135, 240); /* die hintergrundfarbe*/
+    border: 2px solid black; /* die farbe der umrandung*/
+    border-radius: 10px; /* die runde der umrandung*/
+    border: none; /* keine umrandung*/
+    box-shadow: 2px 3px 5px rgb(168, 35, 35);
+}
+
+/*  WAS ist Unterschied zwischen class und id?
+ Antwort: die Klassen können mehrmals verwendet werden, 
+ aber die id nur einmal.  
+ Z.B. wenn wir die Klasse class1 in mehreren Elementen verwenden,
+*/
+.class1{ /*  */
+
+   color: rgb(255, 0, 144); /* die schriftfarbe*/
+    font-size: 25px; /* die größe der schrift*/
+    font-weight: 900;
+}
+
+#labelName{ /* #labelName ist die id des labels*/
+
+    color: rgb(16, 239, 53);
+    font-size: 17px;
+}
+
+button{
+    background-color: rgb(0, 4, 8);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    cursor: pointer;
+
+  
+}
+button:hover{
+    background-color: rgb(240, 6, 6);
+    color: rgb(0, 4, 8);
+    border: 2px solid rgb(0, 4, 8);
+    font-size: 20px; /* die größe der schrift*/
+    cursor: pointer; /* die hand*/ 
+    transition: 0.5s ease-in-out; /* die zeit der animation und ease ist die art der animation*/
+    transform: rotate(360deg); /* die drehung der animation*/
+}

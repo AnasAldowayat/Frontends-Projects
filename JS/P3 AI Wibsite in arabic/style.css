@@ -1,0 +1,20 @@
+
+
+*{
+    font-family: 'Cairo', sans-serif; /* VON GOOGLE FONTS  */
+    direction: rtl;
+}
+
+        
+
+
+
+/* 
+ABKÜRZUNGEN :
+.anas  =  <div class="anas"></div>
+h1.mimi = <h1 class="mimi"></h1>
+#mimi = <div id="mimi"></div>
+#mimi .mimi = <div id="mimi" class="mimi"></div>
+#mimi h1.mimi = <div id="mimi"><h1 class="mimi"></h1></div>
+
+*/
